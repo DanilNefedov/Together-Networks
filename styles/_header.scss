@@ -1,0 +1,30 @@
+header{
+	background-color: $black;
+	padding: 15px 0;
+
+	.container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+
+
+
+.navigation{
+	display: flex;
+
+
+	&__link{
+		padding: 13px 20px;
+
+		&--text{
+			color:$white;
+
+			&:hover{
+				color:$orange;
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+main{
+	min-height: calc(100vh - 350px);
+
+	h1{
+		text-align: center;
+		font-family: 'Source Sans Pro';
+	    line-height: 1.1;
+	    text-transform: none;
+	    font-weight: 600;
+	    max-width: 600px;
+	    margin: 25px auto;
+	}
+}
+
+
+
+
+.link{
+	display: flex;
+
+	a{
+		position: relative;
+		margin-right: 25px;
+		text-decoration: underline;
+
+		&:after{
+			content: '>';
+			position: absolute;
+			width: 10px;
+			height: 10px;
+			left: 120%;
+		}	
+	}
+}
+
+
+.btn{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding: 50px 100px;
+
+	&__link{
+		padding: 15px 20px;
+		background-color: $orange;
+		color:$white;
+
+		&:hover{
+			background-color: $light-orange;
+			color:$black;
+		}
+	}
+}
