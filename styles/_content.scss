@@ -50,4 +50,8 @@ main{
 			color:$black;
 		}
 	}
+
+	@media(max-width: 500px){
+		padding: 25px 20px;
+	}
 }
