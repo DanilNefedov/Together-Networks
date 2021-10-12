@@ -36,7 +36,7 @@
 <body>
 <div class="wrapper">
 	
-	<header>
+	<header >
 		<div class="container">
 			<div class="logo">
 				<a href="#" class="logo__link">
@@ -44,50 +44,102 @@
 				</a>
 			</div>
 
-			<nav class="navigation">
-				<div class="navigation__link">
-					<a href="https://www.hook-up-tonight.com/" class="navigation__link--text">Home</a>
+
+
+			
+			<div class="sidebar" onclick="sidebar()" >
+				<span class="btn-menu" ></span>
+				<span class="btn-menu" ></span>
+				<span class="btn-menu" ></span>
+			</div>
+
+			<nav class="navigation" id='menu'>
+				
+			
+				<div class="nav-bl">
+					<div class="nav-bl__link">
+						<a href="https://www.hook-up-tonight.com/" class="nav-bl__link--text">Home</a>
+					</div>
+					<div class="nav-bl__link">
+						<a href="#" class="nav-bl__link--text nav-bl__link--blog ">Blog</a>
+					</div>
 				</div>
-				<div class="navigation__link">
-					<a href="#" class="navigation__link--text">Blog</a>
-				</div>
+				
 			</nav>
 		</div>
+		
 	</header>
 
 
 	<main>
-		<div class="container">
-			<h1>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</h1>
+		<section class="head-sect">
+			<div class="container">
+				<h1 class="title-top">Tired of wasting time on useless relationships? Find partners for hookup tonight!</h1>
 
-			<ol itemscope itemtype="https://schema.org/BreadcrumbList" class="link">
-				<li itemprop="itemListElement" itemscope
-      				itemtype="https://schema.org/ListItem">
-					<a itemprop="item" href="https://www.hook-up-tonight.com/"><span itemprop="name">Home</span></a>
-					<meta itemprop="position" content="1" >
-				</li>
-				<li itemprop="itemListElement" itemscope
-      				itemtype="https://schema.org/ListItem">
-					<a itemprop="item" href="index.html"><span itemprop="name">Choice</span></a>
-					<meta itemprop="position" content="2" >
-				</li>
-				<li itemprop="itemListElement" itemscope
-      				itemtype="https://schema.org/ListItem">
-					<a itemprop="item" href="page2.html"><span itemprop="name">Next 2</span></a>
-					<meta itemprop="position" content="3" >
-				</li>
-				<li itemprop="itemListElement" itemscope
-      				itemtype="https://schema.org/ListItem">
-					<span itemprop="name">Item</span>
-					<meta itemprop="item" content="./page2-2.html">
-					<meta itemprop="position" content="4" >
-				</li>	
-			</ol>
+				<div class="btn">
+					<a href="#" class="btn__link"> Try Now!</a>
+				</div>
+			</div>
+		</section>
 
-			<p class="btn">
-				The end 2
-			</p>
-		</div>
+		<section class="brad-crumbs">
+			<div class="container">
+				<ol itemscope itemtype="https://schema.org/BreadcrumbList" class="link">
+					<li itemprop="itemListElement" itemscope
+	      				itemtype="https://schema.org/ListItem">
+						<a itemprop="item" href="index.html"><span itemprop="name">Home</span></a>
+						<meta itemprop="position" content="1" >
+					</li>
+					<li itemprop="itemListElement" itemscope
+	      				itemtype="https://schema.org/ListItem">
+						<a itemprop="item" href="page2.html"><span itemprop="name">Find</span></a>
+						<meta itemprop="position" content="2" >
+					</li>
+					<li itemprop="itemListElement" itemscope
+	      				itemtype="https://schema.org/ListItem">
+						<span itemprop="name">The end</span>
+						<meta itemprop="position" content="3" >
+					</li>
+				</ol>
+			</div>
+		</section>
+			
+
+			
+		<section class="why">
+			<div class="container">
+				<div class="why-title">
+					<h2 class="title-35 title-35_white">Why us</h2>
+				</div>
+
+				<div class="why-list">
+					<div class="why-list__elem">
+						<h3 class="why-list__title">
+							Simple registration
+						</h3>
+						<div class="why-list__subtitle">
+							Tell us a little about yourself, add a couple of photos and you’re ready to meet new people.
+						</div>
+					</div>
+					<div class="why-list__elem">
+						<h3 class="why-list__title">
+							Privacy
+						</h3>
+						<div class="why-list__subtitle">
+							Personal data and correspondence are kept private and are not available to outsiders. Reputations of both girls and men are not endangered.
+						</div>
+					</div>
+					<div class="why-list__elem">
+						<h3 class="why-list__title">
+							Security
+						</h3>
+						<div class="why-list__subtitle">
+							Communicate safely: we block all profiles with untrue information and fake photos.
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 
 
@@ -138,9 +190,14 @@
 		</div>
 	</footer>
 
+<div class="scroll">
+		
+	</div>
+
 
 
 
 </div>
+<script src="scripts/main.js"></script>
 </body>
 </html>

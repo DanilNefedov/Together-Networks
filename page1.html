@@ -36,7 +36,7 @@
 <body>
 <div class="wrapper">
 	
-	<header>
+<header >
 		<div class="container">
 			<div class="logo">
 				<a href="#" class="logo__link">
@@ -44,45 +44,128 @@
 				</a>
 			</div>
 
-			<nav class="navigation">
-				<div class="navigation__link">
-					<a href="https://www.hook-up-tonight.com/" class="navigation__link--text">Home</a>
+
+
+			
+			<div class="sidebar" onclick="sidebar()" >
+				<span class="btn-menu" ></span>
+				<span class="btn-menu" ></span>
+				<span class="btn-menu" ></span>
+			</div>
+
+			<nav class="navigation" id='menu'>
+				
+			
+				<div class="nav-bl">
+					<div class="nav-bl__link">
+						<a href="https://www.hook-up-tonight.com/" class="nav-bl__link--text">Home</a>
+					</div>
+					<div class="nav-bl__link">
+						<a href="#" class="nav-bl__link--text nav-bl__link--blog ">Blog</a>
+					</div>
 				</div>
-				<div class="navigation__link">
-					<a href="#" class="navigation__link--text">Blog</a>
-				</div>
+				
 			</nav>
 		</div>
+		
 	</header>
 
 
 	<main>
-		<div class="container">
-			<h1>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</h1>
+		<section class="head-sect">
+			<div class="container">
+				<h1 class="title-top">Tired of wasting time on useless relationships? Find partners for hookup tonight!</h1>
 
-			<ol itemscope itemtype="https://schema.org/BreadcrumbList" class="link">
-				<li itemprop="itemListElement" itemscope
-      				itemtype="https://schema.org/ListItem">
-					<a itemprop="item" href="https://www.hook-up-tonight.com/"><span itemprop="name">Home</span></a>
-					<meta itemprop="position" content="1" >
-				</li>
-				<li itemprop="itemListElement" itemscope
-      				itemtype="https://schema.org/ListItem">
-					<a itemprop="item" href="./index.html"><span itemprop="name">Choice</span></a>
-					<meta itemprop="position" content="2" >
-				</li>
-				<li itemprop="itemListElement" itemscope
-      				itemtype="https://schema.org/ListItem">
-					<span itemprop="name">Next 1</span>
-					<meta itemprop="item" content="./page1.html">
-					<meta itemprop="position" content="3" >
-				</li>
-			</ol>
-
-			<div class="btn">
-				<a class="btn__link" href="page1-1.html">Item</a>
+				<div class="btn">
+					<a href="#" class="btn__link"> Try Now!</a>
+				</div>
 			</div>
-		</div>
+		</section>
+
+		<section class="brad-crumbs">
+			<div class="container">
+				<ol itemscope itemtype="https://schema.org/BreadcrumbList" class="link">
+					<li itemprop="itemListElement" itemscope
+		  				itemtype="https://schema.org/ListItem">
+						<a itemprop="item" href="index.html"><span itemprop="name">Home</span></a>
+						<meta itemprop="position" content="1" >
+					</li>
+					<li itemprop="itemListElement" itemscope
+		  				itemtype="https://schema.org/ListItem">
+						<span itemprop="name">It`s easy</span>
+						<meta itemprop="position" content="2" >
+					</li>
+				</ol>
+			</div>
+		</section>
+
+
+		<section class="link-bl">
+			<div class="container">
+				<div class="btn">
+					<a href="page1-1.html" class="btn__link">Link 1-1</a>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="easy">
+			<div class="container">
+				<div class="easy-about">
+					<h2 class="title-35">It’s easy to hookup tonight!</h2>
+
+					<p class="easy-about__subtitle subtitle">You don’t want a long-term relationship and are looking for a hookup tonight? Then our site “Hook-up-tonight” is what you need! All you have to do is register and become a member.</p>
+					<p class="easy-about__subtitle subtitle">Hundreds of girls are looking for one-night stands, and our site brings them together. Looking for partners for a one night hookup can seem like a very time consuming process. With our site, you’ll start chatting with potential partners in just a few </p>
+					<p class="easy-about__subtitle subtitle">So with our service, finding a one night hookup partner is very easy.</p>
+
+					<div class="btn">
+						<a href="#" class="btn__link btn__link_black">Try for free!</a>
+					</div>
+				</div>
+				<div class="easy-img banner">
+					<img src="img/banner-2.jpg" alt="Woman">
+				</div>
+			</div>
+		</section>
+
+
+		<section class="why">
+			<div class="container">
+				<div class="why-title">
+					<h2 class="title-35 title-35_white">Why us</h2>
+				</div>
+
+				<div class="why-list">
+					<div class="why-list__elem">
+						<h3 class="why-list__title">
+							Simple registration
+						</h3>
+						<div class="why-list__subtitle">
+							Tell us a little about yourself, add a couple of photos and you’re ready to meet new people.
+						</div>
+					</div>
+					<div class="why-list__elem">
+						<h3 class="why-list__title">
+							Privacy
+						</h3>
+						<div class="why-list__subtitle">
+							Personal data and correspondence are kept private and are not available to outsiders. Reputations of both girls and men are not endangered.
+						</div>
+					</div>
+					<div class="why-list__elem">
+						<h3 class="why-list__title">
+							Security
+						</h3>
+						<div class="why-list__subtitle">
+							Communicate safely: we block all profiles with untrue information and fake photos.
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		
 	</main>
 
 
@@ -134,8 +217,12 @@
 	</footer>
 
 
+<div class="scroll">
+		
+	</div>
 
 
 </div>
+<script src="scripts/main.js"></script>
 </body>
 </html>

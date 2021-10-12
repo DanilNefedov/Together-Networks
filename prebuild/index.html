@@ -8,7 +8,7 @@
 	<meta name="keywords" content="hookup tonight, hookup, find your partner for the night, partner, meet, night">
 
 
-	<style>*{padding:0;margin:0;border:0}*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}:active,:focus{outline:0}footer,header,nav{display:block}body,html{width:100%;height:100%;font-family:Roboto;font-style:normal;font-size:16px}a,a:visited{text-decoration:none}a{color:#060606}ol li{list-style:none}img{max-width:100%}.wrapper{overflow:hidden;position:relative}.container{max-width:1170px;padding:0 10px;margin:0 auto}header{background-color:#060606;padding:15px 0}header .container{display:flex;justify-content:space-between;align-items:center}.navigation{display:flex}.navigation__link{padding:13px 20px}.navigation__link--text{color:#fff}footer{background-color:#060606;max-height:330px;color:#fff}@media (max-width:600px){footer{max-height:500px}}.footer-top{display:flex;width:100%}.footer-top__logo{width:50%;display:flex;align-items:center;justify-content:center}@media (max-width:600px){.footer-top__logo{padding-top:20px;width:100%}}.footer-top__info{width:50%;padding:15px}.footer-top__info .footer-top__title{font-size:33px;margin-top:20px;margin-bottom:10px}.footer-top__info .footer-top__link{padding:5px 0}.footer-top__info .footer-top__link--text{color:#f95b26;line-height:1.8}@media (max-width:600px){.footer-top__info{padding:0;width:100%}}@media (max-width:600px){.footer-top{flex-direction:column;align-items:center}}.footer-bot{display:flex;justify-content:center}.footer-bot div{padding:13px 10px}main{min-height:calc(100vh - 350px)}main h1{text-align:center;font-family:"Source Sans Pro";line-height:1.1;text-transform:none;font-weight:600;max-width:600px;margin:25px auto}.link{display:flex}.link a{position:relative;margin-right:25px;text-decoration:underline}.link a:after{content:">";position:absolute;width:10px;height:10px;left:120%}.btn{display:flex;justify-content:space-around;width:100%;padding:50px 100px}.btn__link{padding:15px 20px;background-color:#f95b26;color:#fff}@media (max-width:500px){.btn{padding:25px 20px}}</style>
+	<style>*{padding:0;margin:0;border:0}*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}:active,:focus{outline:0}header,nav{display:block}body,html{width:100%;height:100%;font-family:Roboto;font-style:normal;font-size:16px}a,a:visited{text-decoration:none}a{color:#060606}ol li{list-style:none}img{max-width:100%}.wrapper{overflow:hidden;position:relative}.container{max-width:1100px;padding:0 10px;margin:0 auto}.subtitle{padding-top:50px;line-height:1.8}.brad-crumbs{margin:15px 0}header{background-color:#060606;padding:15px 0;position:relative}header .container{display:flex;justify-content:space-between;align-items:center}@media (max-width:767px){header .container{flex-direction:column;align-items:stretch;padding-left:50px}}.navigation{display:flex}@media (max-width:767px){.navigation{display:none}}.navigation .nav-bl{display:flex}@media (max-width:767px){.navigation .nav-bl{display:block}}.navigation .nav-bl__link{position:relative}@media (max-width:767px){.navigation .nav-bl__link{margin:15px 0 10px}}.navigation .nav-bl__link--text{color:#f95b26;padding:13px 20px}.navigation .nav-bl__link--blog{color:#fff;padding:13px 20px}.navigation .nav-bl__link--blog:after{content:"";position:absolute;width:20px;height:5px;top:0;left:40%;color:red}.sidebar{padding:20px;display:none}.sidebar span{display:block;border-radius:5px;width:40px;height:5px;background-color:#f95b26;margin-top:7px}@media (max-width:767px){.sidebar{display:block}}.scroll{position:fixed;width:40px;height:40px;top:98%;right:20px;border-radius:5px;background-color:#f95b26;transform:translateY(-50px);display:none}.scroll:after{content:"";position:absolute;width:16px;height:16px;background:url(img/triangle.png) 100% 100% no-repeat;top:28%;left:31%}main{min-height:calc(100vh - 350px)}.link{display:flex}.head-sect{background:url(img/banner-1.jpg) no-repeat 100% 30%;padding:70px 0 150px;background-size:cover}@media (max-width:767px){.head-sect{background-position:50% 30%}}@media (max-width:767px){.head-sect .btn{padding-left:40px}}.title-top{font-family:"Source Sans Pro";line-height:1.1;text-transform:none;font-weight:600;color:#fff;font-size:49px;max-width:612px}@media (max-width:767px){.title-top{padding:0 40px}}.brad-crumbs .container{padding-top:20px}.btn{justify-content:flex-start;padding:40px 0 0 0}.btn__link{background-color:#f95b26;color:#fff;font-size:1em;line-height:40px;padding:13px 40px}.easy{padding:75px 0}.easy .container{display:flex;justify-content:space-between;align-items:center}@media (max-width:767px){.easy .container{flex-direction:column}}.title-35{font-size:35px;position:relative;font-weight:600}.title-35:after{content:"";position:absolute;width:50px;height:5px;background-color:#f95b26;border-radius:5px;top:110%;left:0}.easy-about{max-width:550px}@media (max-width:767px){.easy-about{padding:0 30px}}</style>
 	<link rel="stylesheet" type="text/css" href="styles/main.css" media="print" onload="this.media='all'">
 
 
@@ -37,7 +37,7 @@
 <body>
 <div class="wrapper">
 	
-	<header>
+	<header >
 		<div class="container">
 			<div class="logo">
 				<a href="#" class="logo__link">
@@ -45,39 +45,147 @@
 				</a>
 			</div>
 
-			<nav class="navigation">
-				<div class="navigation__link">
-					<a href="https://www.hook-up-tonight.com/" class="navigation__link--text">Home</a>
+
+
+			
+			<div class="sidebar" onclick="sidebar()" >
+				<span class="btn-menu" ></span>
+				<span class="btn-menu" ></span>
+				<span class="btn-menu" ></span>
+			</div>
+
+			<nav class="navigation" id='menu'>
+				
+			
+				<div class="nav-bl">
+					<div class="nav-bl__link">
+						<a href="https://www.hook-up-tonight.com/" class="nav-bl__link--text">Home</a>
+					</div>
+					<div class="nav-bl__link">
+						<a href="#" class="nav-bl__link--text nav-bl__link--blog ">Blog</a>
+					</div>
 				</div>
-				<div class="navigation__link">
-					<a href="#" class="navigation__link--text">Blog</a>
-				</div>
+				
 			</nav>
 		</div>
+		
 	</header>
 
 
 	<main>
-		<div class="container">
-			<h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h1>
+		<section class="head-sect">
+			<div class="container">
+				<h1 class="title-top">Tired of wasting time on useless relationships? Find partners for hookup tonight!</h1>
 
-			<ol class="link" vocab="https://schema.org/" typeof="BreadcrumbList">
-				<li property="itemListElement" typeof="ListItem">
-					<a property="item" typeof="WebPage" href="https://www.hook-up-tonight.com/"><span property="name">Home</span></a>
-					<meta property="position" content="1">
-				</li>
-				<li property="itemListElement" typeof="ListItem">
-					<span property="name">Choice</span>
-					<meta property="item" content="./index.html" />
-					<meta property="position" content="2">
-				</li>
-			</ol>
-
-			<div class="btn">
-				<a class="btn__link" href="page1.html">Next 1</a>
-				<a class="btn__link" href="page2.html">Next 2</a>
+				<div class="btn">
+					<a href="#" class="btn__link"> Try Now!</a>
+				</div>
 			</div>
-		</div>
+		</section>
+
+
+		<section class="brad-crumbs">
+			<div class="container">
+				<ol class="link" vocab="https://schema.org/" typeof="BreadcrumbList">
+					<li property="itemListElement" typeof="ListItem">
+						<span property="name">Home</span>
+						<meta property="position" content="1">
+					</li>
+				</ol>
+			</div>
+		</section>
+		
+
+		<section class="link-bl">
+			<div class="container">
+				<div class="btn">
+					<a href="page1.html" class="btn__link">Link 1</a>
+				</div>
+				<div class="btn">
+					<a href="page2.html" class="btn__link">Link 2</a>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="easy">
+			<div class="container">
+				<div class="easy-about">
+					<h2 class="title-35">It’s easy to hookup tonight!</h2>
+
+					<p class="easy-about__subtitle subtitle">You don’t want a long-term relationship and are looking for a hookup tonight? Then our site “Hook-up-tonight” is what you need! All you have to do is register and become a member.</p>
+					<p class="easy-about__subtitle subtitle">Hundreds of girls are looking for one-night stands, and our site brings them together. Looking for partners for a one night hookup can seem like a very time consuming process. With our site, you’ll start chatting with potential partners in just a few </p>
+					<p class="easy-about__subtitle subtitle">So with our service, finding a one night hookup partner is very easy.</p>
+
+					<div class="btn">
+						<a href="#" class="btn__link btn__link_black">Try for free!</a>
+					</div>
+				</div>
+				<div class="easy-img banner">
+					<img src="img/banner-2.jpg" alt="Woman">
+				</div>
+			</div>
+		</section>
+
+
+		<section class="why">
+			<div class="container">
+				<div class="why-title">
+					<h2 class="title-35 title-35_white">Why us</h2>
+				</div>
+
+				<div class="why-list">
+					<div class="why-list__elem">
+						<h3 class="why-list__title">
+							Simple registration
+						</h3>
+						<div class="why-list__subtitle">
+							Tell us a little about yourself, add a couple of photos and you’re ready to meet new people.
+						</div>
+					</div>
+					<div class="why-list__elem">
+						<h3 class="why-list__title">
+							Privacy
+						</h3>
+						<div class="why-list__subtitle">
+							Personal data and correspondence are kept private and are not available to outsiders. Reputations of both girls and men are not endangered.
+						</div>
+					</div>
+					<div class="why-list__elem">
+						<h3 class="why-list__title">
+							Security
+						</h3>
+						<div class="why-list__subtitle">
+							Communicate safely: we block all profiles with untrue information and fake photos.
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="find">
+			<div class="container">
+				<div class="find-title">
+					<h2 class="title-35">Find your partner for the night!</h2>
+				</div>
+				<div class="find-content">
+					<div class="banner">
+						<img src="img/banner-4.jpg" alt="Woman">
+					</div>
+					<div class="find-content__about">
+						<p class="find-content__text subtitle">Meeting someone for a night out is fun, but not so easy. However, with our dating site it becomes more than possible.</p>
+						<p class="find-content__text subtitle">You can find someone and hookup tonight. You have the opportunity to find lots of new people, and you don’t have to put a lot of effort into it. Our site does all the work for you. This means that all of our users can do their own thing and still get results. By becoming a member of the site, you get one step closer to meeting an interesting and attractive person to hook up with.</p>
+						<p class="find-content__text subtitle">You might even find a partner or a couple to have sex with.</p>
+						<div class="btn">
+							<a href="#" class="btn__link btn__link_black">Meet Your Partner Now!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
 	</main>
 
 
@@ -128,10 +236,13 @@
 		</div>
 	</footer>
 
-
+	<div class="scroll">
+		
+	</div>
 
 
 </div>
+<script src="scripts/main.js"></script>
 
 <noscript><link rel="stylesheet" type="text/css" href="styles/main.css"></noscript>
 

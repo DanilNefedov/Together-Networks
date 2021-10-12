@@ -36,7 +36,7 @@
 <body>
 <div class="wrapper">
 	
-	<header>
+	<header >
 		<div class="container">
 			<div class="logo">
 				<a href="#" class="logo__link">
@@ -44,45 +44,94 @@
 				</a>
 			</div>
 
-			<nav class="navigation">
-				<div class="navigation__link">
-					<a href="https://www.hook-up-tonight.com/" class="navigation__link--text">Home</a>
+
+
+			
+			<div class="sidebar" onclick="sidebar()" >
+				<span class="btn-menu" ></span>
+				<span class="btn-menu" ></span>
+				<span class="btn-menu" ></span>
+			</div>
+
+			<nav class="navigation" id='menu'>
+				
+			
+				<div class="nav-bl">
+					<div class="nav-bl__link">
+						<a href="https://www.hook-up-tonight.com/" class="nav-bl__link--text">Home</a>
+					</div>
+					<div class="nav-bl__link">
+						<a href="#" class="nav-bl__link--text nav-bl__link--blog ">Blog</a>
+					</div>
 				</div>
-				<div class="navigation__link">
-					<a href="#" class="navigation__link--text">Blog</a>
-				</div>
+				
 			</nav>
 		</div>
+		
 	</header>
 
 
 	<main>
-		<div class="container">
-			<h1>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</h1>
+		<section class="head-sect">
+			<div class="container">
+				<h1 class="title-top">Tired of wasting time on useless relationships? Find partners for hookup tonight!</h1>
 
-			<ol itemscope itemtype="https://schema.org/BreadcrumbList" class="link">
-				<li itemprop="itemListElement" itemscope
-      				itemtype="https://schema.org/ListItem">
-					<a itemprop="item" href="https://www.hook-up-tonight.com/"> <span itemprop="name">Home</span></a>
-					<meta itemprop="position" content="1" >
-				</li>
-				<li itemprop="itemListElement" itemscope
-      				itemtype="https://schema.org/ListItem">
-					<a itemprop="item" href="index.html"><span itemprop="name">Choice</span></a>
-					<meta itemprop="position" content="2" >
-				</li>
-				<li itemprop="itemListElement" itemscope
-      				itemtype="https://schema.org/ListItem">
-					<span itemprop="name">Next 2</span>
-					<meta itemprop="item" content="./page2.html">
-					<meta itemprop="position" content="3" >
-				</li>	
-			</ol>
-
-			<div class="btn">
-				<a class="btn__link" href="page2-2.html">Item</a>
+				<div class="btn">
+					<a href="#" class="btn__link"> Try Now!</a>
+				</div>
 			</div>
-		</div>
+		</section>
+
+
+		<section class="brad-crumbs">
+			<div class="container">
+				<ol itemscope itemtype="https://schema.org/BreadcrumbList" class="link">
+					<li itemprop="itemListElement" itemscope
+	      				itemtype="https://schema.org/ListItem">
+						<a itemprop="item" href="index.html"> <span itemprop="name">Home</span></a>
+						<meta itemprop="position" content="1" >
+					</li>
+					<li itemprop="itemListElement" itemscope
+	      				itemtype="https://schema.org/ListItem">
+						<span itemprop="name">Find</span>
+						<meta itemprop="position" content="2" >
+					</li>
+				</ol>
+			</div>
+		</section>
+
+
+		<section class="link-bl">
+			<div class="container">
+				<div class="btn">
+					<a href="page2-2.html" class="btn__link">Link 2-2</a>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="find">
+			<div class="container">
+				<div class="find-title">
+					<h2 class="title-35">Find your partner for the night!</h2>
+				</div>
+				<div class="find-content">
+					<div class="banner">
+						<img src="img/banner-4.jpg" alt="Woman">
+					</div>
+					<div class="find-content__about">
+						<p class="find-content__text subtitle">Meeting someone for a night out is fun, but not so easy. However, with our dating site it becomes more than possible.</p>
+						<p class="find-content__text subtitle">You can find someone and hookup tonight. You have the opportunity to find lots of new people, and you don’t have to put a lot of effort into it. Our site does all the work for you. This means that all of our users can do their own thing and still get results. By becoming a member of the site, you get one step closer to meeting an interesting and attractive person to hook up with.</p>
+						<p class="find-content__text subtitle">You might even find a partner or a couple to have sex with.</p>
+						<div class="btn">
+							<a href="#" class="btn__link btn__link_black">Meet Your Partner Now!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
 	</main>
 
 
@@ -133,9 +182,11 @@
 		</div>
 	</footer>
 
-
-
+<div class="scroll">
+		
+	</div>
 
 </div>
+<script src="scripts/main.js"></script>
 </body>
 </html>
